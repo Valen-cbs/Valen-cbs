@@ -64,7 +64,7 @@ secciones de habilidades o aprendizajes.
 
 </details>
 
-[Sitio oficial · centronea.com ↗](https://centronea.com) &nbsp;·&nbsp; [Repositorio ↗](https://github.com/Valen-cbs/Centronea) <sub>— código privado; requiere acceso.</sub>
+[Sitio oficial · centronea.com ↗](https://centronea.com)
 
 <!-- PROJECT:CENTRONEA:END -->
 <!-- PROJECTS:END -->
