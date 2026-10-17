@@ -24,7 +24,7 @@ Desarrollo aplicaciones web. Me interesan la arquitectura de software, las bases
 
 <picture>
   <source media="(max-width: 600px)" srcset="assets/skills-mobile.svg">
-  <img src="assets/skills.svg" width="100%" alt="Habilidades por área. Web: JavaScript, TypeScript y React. Servidor: Node.js, Express y APIs REST. Datos: PostgreSQL, SQL y modelado. Herramientas: Git, Linux, Docker y Vite.">
+  <img src="assets/skills.svg" width="100%" alt="Habilidades por área. Lenguajes: C, Python, JavaScript y TypeScript. Web y APIs: React, Django, Node.js, Express y REST. Datos: PostgreSQL, SQL y modelado. Herramientas: Git, Linux, Docker y Vite.">
 </picture>
 
 <details>
