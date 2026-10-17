@@ -1,50 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="960" height="304" viewBox="0 0 960 304" fill="none" role="img" aria-labelledby="title desc">
-  <title id="title">Engineering in progress</title>
-  <desc id="desc">Valentino. Desarrollo web, sistemas y bases de datos. Un diagrama conecta interfaz, API y datos.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="960" y2="304" gradientUnits="userSpaceOnUse"><stop stop-color="#101C2A"/><stop offset="1" stop-color="#0A1018"/></linearGradient>
-    <linearGradient id="accent" x1="56" y1="0" x2="904" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#85F3CC"/><stop offset="1" stop-color="#6BAAFF"/></linearGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#7695B7" stroke-opacity=".065"/></pattern>
-    <style>
-      .mono{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace}
-      .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
-      .flow{stroke-dasharray:5 11;animation:flow 4s linear infinite}
-      .signal{animation:signal 4s ease-in-out infinite}
-      @keyframes flow{to{stroke-dashoffset:-64}}
-      @keyframes signal{0%,100%{opacity:.45}50%{opacity:1}}
-      @media(prefers-reduced-motion:reduce){.flow,.signal{animation:none}}
-    </style>
-  </defs>
-  <rect x=".5" y=".5" width="959" height="303" rx="18" fill="url(#bg)" stroke="#27374B"/>
-  <rect x="1" y="1" width="958" height="302" rx="18" fill="url(#grid)"/>
-  <path d="M56 1H904" stroke="url(#accent)" stroke-width="2"/>
-  <g class="mono" font-size="11" letter-spacing="1.8">
-    <text x="56" y="40" fill="#85F3CC">VALEN-CBS / PERSONAL PORTFOLIO</text>
-    <text x="904" y="40" text-anchor="end" fill="#91A5BD">01 — CONTINUOUS LEARNING</text>
-  </g>
-  <g class="sans" font-size="59" font-weight="700" letter-spacing="-2.2">
-    <text x="52" y="120" fill="#F0F5FB">Engineering</text>
-    <text x="52" y="184" fill="url(#accent)">in progress.</text>
-  </g>
-  <text class="sans" x="56" y="220" fill="#A9B9CC" font-size="16">Valentino · Desarrollo web, sistemas y datos.</text>
-  <path d="M56 249H505" stroke="#27374B"/>
-  <text class="mono" x="56" y="276" fill="#91A5BD" font-size="11" letter-spacing="1">IDEA → MODELO → CÓDIGO → ITERACIÓN</text>
-  <g stroke="#31465F">
-    <path d="M626 110H704V156H782"/>
-    <path d="M704 156V218H846V156"/>
-    <path d="M626 110H704V156H782" class="flow" stroke="#85F3CC"/>
-    <path d="M704 156V218H846V156" class="flow" stroke="#6BAAFF"/>
-  </g>
-  <g class="mono" font-size="12" letter-spacing="1">
-    <rect x="572" y="82" width="108" height="56" rx="10" fill="#142536" stroke="#46647C"/>
-    <path d="M588 100H600M588 106H596" stroke="#85F3CC" stroke-width="2"/>
-    <text x="617" y="114" fill="#E6EFF9">UI</text>
-    <rect x="750" y="128" width="116" height="56" rx="10" fill="#142536" stroke="#46647C"/>
-    <text x="777" y="161" fill="#E6EFF9">{ API }</text>
-    <rect x="612" y="190" width="108" height="56" rx="10" fill="#142536" stroke="#46647C"/>
-    <text x="638" y="223" fill="#E6EFF9">DATA</text>
-  </g>
-  <circle cx="704" cy="156" r="5" fill="#85F3CC" class="signal"/>
-  <circle cx="846" cy="218" r="4" fill="#6BAAFF" class="signal"/>
-  <path d="M884 74H900V90M572 254V266H588" stroke="#58728E"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="250" viewBox="0 0 960 250" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Valentino · Code, learn, repeat.</title><desc id="desc">Software, sistemas y datos. Estudiante de Ingeniería en Sistemas de Información, UTN FRRe.</desc><defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101B28"/><stop offset="1" stop-color="#0B111B"/></linearGradient>
+<linearGradient id="accent"><stop stop-color="#80E8C3"/><stop offset="1" stop-color="#7BB6FF"/></linearGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="12" cy="12" r=".7" fill="#AFC0D4" opacity=".1"/></pattern>
+<marker id="arrow" markerWidth="6" markerHeight="6" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="#63849A"/></marker>
+<style>.trace{stroke-dasharray:3 10;animation:trace 8s linear infinite}@keyframes trace{to{stroke-dashoffset:-104}}@media(prefers-reduced-motion:reduce){.trace{animation:none}}</style>
+</defs><rect x=".5" y=".5" width="959" height="249" rx="20" fill="url(#bg)" stroke="#293C50"/><rect x="1" y="1" width="958" height="248" rx="20" fill="url(#dots)"/>
+<path d="M40 1H920" stroke="url(#accent)" stroke-width="2"/>
+<text x="48" y="43" font-family="ui-monospace,Consolas,monospace" font-size="12" font-weight="500" fill="#80E8C3">VALEN-CBS / PORTFOLIO PERSONAL</text>
+<text x="48" y="140" font-family="Segoe UI,Arial,sans-serif" font-size="86" font-weight="700" fill="#F1F6FC">Valentino.</text>
+<text x="52" y="187" font-family="Segoe UI,Arial,sans-serif" font-size="28" font-weight="400" fill="#80E8C3">Code, learn, repeat.</text>
+<text x="52" y="221" font-family="ui-monospace,Consolas,monospace" font-size="12" font-weight="500" fill="#7BB6FF">INGENIERÍA EN SISTEMAS · UTN FRRe</text>
+<path d="M718 78Q806 78 806 130T888 196M806 130Q888 130 888 78" stroke="#527990" stroke-width="1.5"/>
+<path d="M718 78Q806 78 806 130T888 196" class="trace" stroke="#80E8C3" stroke-width="2"/>
+<circle cx="806" cy="130" r="44" fill="#142936" stroke="#80E8C3"/>
+<text x="788" y="145" font-family="Segoe UI,Arial,sans-serif" font-size="40" font-weight="600" fill="#80E8C3">V</text>
+<circle cx="718" cy="78" r="9" fill="#7BB6FF"/><circle cx="888" cy="78" r="9" fill="#80E8C3"/><circle cx="888" cy="196" r="9" fill="#7BB6FF"/>
 </svg>

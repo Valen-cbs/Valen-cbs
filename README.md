@@ -1,6 +1,6 @@
 <picture>
   <source media="(max-width: 600px)" srcset="assets/banner-mobile.svg">
-  <img src="assets/banner.svg" width="100%" alt="Engineering in progress. Valentino — desarrollo web, sistemas y bases de datos.">
+  <img src="assets/banner.svg" width="100%" alt="Valentino. Code, learn, repeat. Estudiante de Ingeniería en Sistemas de Información en UTN FRRe.">
 </picture>
 
 <p align="center">
@@ -12,17 +12,21 @@
 
 <a id="sobre-mi"></a>
 
-# Hola, soy Valentino
+# Cada parte se conecta
 
 Estudio **Ingeniería en Sistemas de Información en la UTN Facultad Regional Resistencia** y estoy finalizando mi tercer año.
 
-Desarrollo aplicaciones web y me interesa entender cómo encajan sus piezas: la interfaz que usa una persona, la lógica que resuelve un problema y los datos que sostienen el sistema. Busco combinar buenas decisiones de arquitectura con experiencias de usuario claras y bien construidas.
-
-> Construir, entender las decisiones y mejorar la siguiente versión.
+Me interesa cómo una idea se convierte en un sistema: qué ve una persona, qué lógica lo hace funcionar y cómo se organizan sus datos. Este es el mapa de lo que construyo y sigo aprendiendo.
 
 <a id="tecnologias"></a>
 
-## 01 / Con qué trabajo
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/profile-map-mobile.svg">
+  <img src="assets/profile-map.svg" width="100%" alt="Mi mapa de trabajo: interfaz con JavaScript, TypeScript y React; lógica con Node.js, Express y APIs REST; datos con PostgreSQL. Estas áreas se conectan en Centronea Automotores. Git, Linux y Docker acompañan el trabajo, y continúo mi formación en MongoDB.">
+</picture>
+
+<details>
+<summary><strong>Explorar las herramientas y los fundamentos del mapa</strong></summary>
 
 | Área | Tecnologías y enfoque |
 | :--- | :--- |
@@ -31,46 +35,50 @@ Desarrollo aplicaciones web y me interesa entender cómo encajan sus piezas: la 
 | **Herramientas** | Git · Linux · Docker · Vite |
 | **Diseño de sistemas** | APIs REST · UML · patrones de diseño · modelado de datos |
 
-Actualmente profundizo en **MongoDB**, diseño de sistemas y arquitectura de software. Me interesa conectar lo que aprendo con decisiones concretas en mis proyectos.
+En PostgreSQL tengo experiencia práctica con SQL, modelado, índices, transacciones y concurrencia. Continúo profundizando en diseño de sistemas, UML, patrones de diseño y modelado de datos.
+
+</details>
 
 <a id="proyecto-destacado"></a>
 
-## 02 / Un proyecto para conocer mi trabajo
+## Donde las piezas se encuentran
 
 <!-- PROJECTS:START
 Para añadir un proyecto, duplicar el bloque entre PROJECT:CENTRONEA:START y
 PROJECT:CENTRONEA:END debajo del existente. Cambiar el identificador del comentario,
 el título, la descripción, las tecnologías y los enlaces por información verificada.
 Agregar una captura solo cuando exista un archivo real en assets/projects/.
-Actualizar el título de esta sección a "Proyectos destacados" si hay más de uno.
+El mapa visual muestra Centronea como aplicación de las áreas de trabajo.
+Si hay más proyectos, actualizar también los SVG del mapa para reflejarlos.
 -->
 
 <!-- PROJECT:CENTRONEA:START -->
 
-### [Centronea Automotores ↗](https://centronea.vercel.app)
+### [Centronea Automotores ↗](https://centronea.com)
 
 **Catálogo digital y gestión de vehículos para una concesionaria.**
 
-Una aplicación que reúne la consulta pública del catálogo con herramientas de administración. El proyecto me permite trabajar sobre una experiencia completa: navegación, datos, imágenes y servicios del servidor.
+El catálogo, el panel de administración y el asesor CentroAI reúnen el trabajo de interfaz, lógica y datos que aparece en el mapa.
 
-- **Exploración:** catálogo de vehículos y fichas individuales.
-- **Gestión:** panel protegido para administrar vehículos y fotografías.
-- **Asistencia:** CentroAI, un asesor comercial con respuestas por streaming y funciones de voz.
+<details>
+<summary><strong>Recorrer la implementación</strong></summary>
+
+- **Catálogo:** exploración de vehículos y fichas individuales.
+- **Administración:** panel protegido para gestionar vehículos y fotografías.
+- **CentroAI:** asesor comercial con respuestas por streaming y funciones de voz.
 
 **Implementado con** React y Vite en la interfaz, funciones serverless de Node.js en Vercel, PostgreSQL en Neon y Cloudflare R2 para fotografías.
 
-[Visitar el sitio ↗](https://centronea.vercel.app) &nbsp;·&nbsp; [Repositorio ↗](https://github.com/Valen-cbs/Centronea) <sub>— código privado; requiere acceso.</sub>
+</details>
+
+[Sitio oficial · centronea.com ↗](https://centronea.com) &nbsp;·&nbsp; [Repositorio ↗](https://github.com/Valen-cbs/Centronea) <sub>— código privado; requiere acceso.</sub>
 
 <!-- PROJECT:CENTRONEA:END -->
 <!-- PROJECTS:END -->
 
 <a id="formacion"></a>
 
-## 03 / Formación en movimiento
-
-### Ingeniería en Sistemas de Información
-
-**UTN Facultad Regional Resistencia** · Finalizando tercer año.
+## La base y el próximo paso
 
 ### Cursos completados
 
@@ -131,13 +139,14 @@ el título, emisor, fecha y enlace verificable reales. Hasta entonces mantener
 ---
 
 <p align="center">
-  <sub>Engineering in progress · Aprendizaje continuo, decisiones con intención.</sub>
+  <sub>Valentino · Code, learn, repeat.</sub>
 </p>
 
 <!-- MAINTENANCE
 Presentación: mantener el año de carrera actualizado (referencia: octubre de 2026).
-Diseño: assets/banner.svg para escritorio y assets/banner-mobile.svg para móvil.
-Los dos SVG son autónomos: sin JavaScript, fuentes remotas ni servicios externos.
+Diseño: assets/banner.svg y assets/profile-map.svg para escritorio;
+assets/banner-mobile.svg y assets/profile-map-mobile.svg para móvil.
+Los SVG son autónomos: sin JavaScript, fuentes remotas ni servicios externos.
 La animación es decorativa; el contenido sigue siendo legible sin movimiento.
 El README usa estilos nativos de GitHub: su fondo respeta el tema del visitante.
 Revisar los enlaces del sitio y el acceso al código al actualizar cada proyecto.
