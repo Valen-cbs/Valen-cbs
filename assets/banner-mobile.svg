@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="300" viewBox="0 0 480 300" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering in progress</title>
+  <desc id="desc">Valentino. Desarrollo web, sistemas y datos. Versión del encabezado para pantallas pequeñas.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="480" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#101C2A"/><stop offset="1" stop-color="#0A1018"/></linearGradient>
+    <linearGradient id="accent" x1="28" y1="0" x2="452" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#85F3CC"/><stop offset="1" stop-color="#6BAAFF"/></linearGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" stroke="#7695B7" stroke-opacity=".065"/></pattern>
+    <style>
+      .mono{font-family:ui-monospace,SFMono-Regular,Consolas,'Liberation Mono',monospace}
+      .sans{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif}
+      .flow{stroke-dasharray:5 11;animation:flow 4s linear infinite}
+      @keyframes flow{to{stroke-dashoffset:-64}}
+      @media(prefers-reduced-motion:reduce){.flow{animation:none}}
+    </style>
+  </defs>
+  <rect x=".5" y=".5" width="479" height="299" rx="16" fill="url(#bg)" stroke="#27374B"/>
+  <rect x="1" y="1" width="478" height="298" rx="16" fill="url(#grid)"/>
+  <path d="M28 1H452" stroke="url(#accent)" stroke-width="2"/>
+  <text class="mono" x="28" y="37" fill="#85F3CC" font-size="12" letter-spacing="1.6">VALEN-CBS / PORTFOLIO</text>
+  <g class="sans" font-size="54" font-weight="700" letter-spacing="-2">
+    <text x="26" y="107" fill="#F0F5FB">Engineering</text>
+    <text x="26" y="165" fill="url(#accent)">in progress.</text>
+  </g>
+  <text class="sans" x="28" y="201" fill="#A9B9CC" font-size="16">Valentino · Desarrollo web, sistemas y datos.</text>
+  <path d="M28 225H452" stroke="#27374B"/>
+  <path d="M106 260H211M273 260H378" stroke="#85F3CC" class="flow"/>
+  <g class="mono" font-size="12" letter-spacing="1" fill="#E6EFF9">
+    <rect x="28" y="244" width="78" height="32" rx="7" fill="#142536" stroke="#46647C"/><text x="57" y="265">UI</text>
+    <rect x="204" y="244" width="78" height="32" rx="7" fill="#142536" stroke="#46647C"/><text x="229" y="265">API</text>
+    <rect x="374" y="244" width="78" height="32" rx="7" fill="#142536" stroke="#46647C"/><text x="397" y="265">DATA</text>
+  </g>
+</svg>
